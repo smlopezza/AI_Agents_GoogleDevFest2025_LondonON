@@ -1,5 +1,4 @@
 from google.adk.agents import Agent
-from google.adk.tools import FunctionTool, ToolContext
 from agents.insights_agent.agent import run_python_code
 
 # --- Instructions for the agent ---
