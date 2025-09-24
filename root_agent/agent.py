@@ -5,12 +5,13 @@ from google.adk.agents import Agent
 # from agents.strategy_agent.agent import strategy_agent
 from google.adk.agents import SequentialAgent
 from agents.orchestration_agent.agent import coordinator_agent
+from agents.ethics_and_safety_agent.agent import ethical_agent
 
 
 # Ensures the ethical and safety agent runs before providing the answer to the user
 root_agent = SequentialAgent(
     name="Root_agent", 
-    sub_agents=[coordinator_agent]
+    sub_agents=[coordinator_agent, ethical_agent]
 )
 
 
