@@ -55,3 +55,6 @@ You can find the dataset:
 - https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
 We will use the Kaggle version for this project. 
+
+## Agent Architecture
+![Agent Architecture](src/AI%20Agent%20Architecture.drawio.png)
